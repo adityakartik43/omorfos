@@ -6,8 +6,6 @@ import { HashRouter as Router, Routes } from 'react-router-dom';
 
 createRoot(document.getElementById('root')).render(
   <Router>
-    <Routes>
     <App />
-    </Routes>
   </Router>,
 )
