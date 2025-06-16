@@ -9,5 +9,6 @@ export default defineConfig({
     host: true, // allow external access
     allowedHosts: ['.ngrok-free.app'], // allow all ngrok subdomains
     port: 3000
-  }
+  },
+  base: '/omorfos/',
 });

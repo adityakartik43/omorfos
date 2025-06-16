@@ -86,7 +86,7 @@ const CardFullDetails = ({ data }) => {
             {/* Or use Lucide icon: <X size={32} /> */}
           </button>
           <img
-            src={data.uri}
+            src={data.image}
             alt="Full View"
             className="max-w-full max-h-full rounded-xl shadow-2xl transform transition-all duration-300 scale-100 animate-zoomIn"
           />
