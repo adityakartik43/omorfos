@@ -1,9 +1,10 @@
 {
+  
+  "homepage": "https://adityakartik43.github.io/omorfos",
   "name": "omorfos",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://adityakartik43.github.io/omorfos",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
