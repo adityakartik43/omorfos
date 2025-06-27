@@ -6,11 +6,13 @@ import Projects from './components/Projects'
 import FloorPlan from './components/FloorPlan'
 import Gallery from './components/Gallery'
 import Founder from './components/Founder'
+import Footer from './components/Footer'
+import { BrowserRouter, Router } from 'react-router-dom'
 
 const App = () => {
   return (
     <>
-
+  
     <Navbar />
     <HeroSection />
     <About />
@@ -18,7 +20,7 @@ const App = () => {
     <FloorPlan />
     <Gallery />
     <Founder />
-
+    <Footer />
     
     </>
   )

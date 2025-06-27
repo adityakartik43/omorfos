@@ -36,7 +36,7 @@ const Gallery = () => {
               {imageUrls.map((img, idx) => (
                 <div
                   key={idx}
-                  className="bg-white rounded-2xl shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-gray-600 transition-shadow duration-500 cursor-pointer transform hover:scale-102"
+                  className="bg-white rounded-2xl shadow-lg shadow-gray-400 hover:shadow-lg hover:shadow-gray-600 transition-transform duration-300 cursor-pointer transform hover:scale-105"
                   onClick={() => openImage(img)}
                 >
                   <img
